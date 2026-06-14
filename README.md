@@ -4,14 +4,6 @@ Flutter 功能型组件的完整示例集合，涵盖**返回拦截**（PopScope
 
 ---
 
-## 目录导航汇总页
-
-<p align="center">
-  <img src="chapter_7_sceen/QQ20260614-225439.png" width="320" alt="Chapter 7 Home">
-</p>
-
----
-
 ## 7.1 导航返回拦截 — PopScope
 
 > ⚠️ Flutter 3.12+ 中 `WillPopScope` 已废弃，替代方案：`PopScope`
