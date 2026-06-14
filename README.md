@@ -7,7 +7,7 @@ Flutter 功能型组件的完整示例集合，涵盖**返回拦截**（PopScope
 ## 目录导航汇总页
 
 <p align="center">
-  <img src="../chapter_7_sceen/QQ20260614-225439.png" width="320" alt="Chapter 7 Home">
+  <img src="chapter_7_sceen/QQ20260614-225439.png" width="320" alt="Chapter 7 Home">
 </p>
 
 ---
@@ -19,7 +19,7 @@ Flutter 功能型组件的完整示例集合，涵盖**返回拦截**（PopScope
 **两种经典场景**：① 双击返回退出（防误触）② 编辑状态下拦截返回（需确认）
 
 <p align="center">
-  <img src="../chapter_7_sceen/QQ20260614-225439.png" width="320" alt="7.1 PopScope">
+  <img src="chapter_7_sceen/QQ20260614-225439.png" width="320" alt="7.1 PopScope">
 </p>
 
 **核心代码** → [chapter_7_1/lib/willpop_scope_demo.dart](chapter_7_1/lib/willpop_scope_demo.dart)
@@ -65,7 +65,7 @@ PopScope(
 InheritedWidget 是 Flutter **数据向下传递**的核心机制，Theme、MediaQuery、Navigator 都基于它实现。
 
 <p align="center">
-  <img src="../chapter_7_sceen/QQ20260614-225502.png" width="320" alt="7.2 InheritedWidget">
+  <img src="chapter_7_sceen/QQ20260614-225502.png" width="320" alt="7.2 InheritedWidget">
 </p>
 
 **核心代码** → [chapter_7_2/lib/inherited_widget_demo.dart](chapter_7_2/lib/inherited_widget_demo.dart)
@@ -127,7 +127,7 @@ final d = (el?.widget as _ShareDataWidget?)?.data; // getElementFor... → 不�
 Theme 组件内部通过 **InheritedWidget** 向下共享样式数据，子组件通过 `Theme.of(context)` 获取。
 
 <p align="center">
-  <img src="../chapter_7_sceen/QQ20260614-225509.png" width="320" alt="7.3 Theme">
+  <img src="chapter_7_sceen/QQ20260614-225509.png" width="320" alt="7.3 Theme">
 </p>
 
 **核心代码** → [chapter_7_3/lib/theme_demo.dart](chapter_7_3/lib/theme_demo.dart)
@@ -175,7 +175,7 @@ Theme(
 Flutter 提供了完整的对话框生态：AlertDialog、SimpleDialog、BottomSheet、SnackBar。
 
 <p align="center">
-  <img src="../chapter_7_sceen/QQ20260614-225522.png" width="320" alt="7.4 Dialogs">
+  <img src="chapter_7_sceen/QQ20260614-225522.png" width="320" alt="7.4 Dialogs">
 </p>
 
 **核心代码** → [chapter_7_4/lib/dialogs_demo.dart](chapter_7_4/lib/dialogs_demo.dart)
